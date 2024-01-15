@@ -28,7 +28,9 @@
 
     // slidinge down the cart container
     const cartContainer = document.getElementById('cartContainer');
+    const opacity = document.getElementsByById('opacity');
     cartContainer.classList.add('show-cart');
+    opacity.style.opacity = '0.5';
 
     // updating the red circle banner
     updateRedCircleBanner();
