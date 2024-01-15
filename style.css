@@ -607,6 +607,7 @@
     width: 40vh;
     height: 55vh;
     background-color: white;
+    border-radius: 4vh;
     box-shadow: 0 3px 10px rgba(186, 184, 184, 0.5);
 
   }
@@ -946,7 +947,8 @@ top: 185vh;}
     overflow-y: auto;
   }
   .total-price {
-  
+    font-family: "Ubuntu", Helvetica;
+
   text-decoration: underline;
   margin-bottom: 2vh;
 
@@ -960,8 +962,12 @@ top: 185vh;}
     background-color: rgb(248, 13, 169);
     color: white;
     opacity: 0.6;
+    
     border: none;
     margin-top: 0.3vh;
+    font-family: "Ubuntu", Helvetica;
+    
+
   }
   .cart-item {
     display: flex;
@@ -987,19 +993,26 @@ opacity:0.95;
   .product-price {
     margin-right: 10px; /* Adjust the margin as needed */
   }
-  
+  .cart-item {
+    font-family: "Ubuntu", Helvetica;
+
+  }
   .delete-button {
     margin-left: auto;
     width: 8vh;
     letter-spacing: 0.15vh;
-    padding-top: 0.3vh;
-    padding-bottom: 0.3vh;
+    padding-top: 0.7vh;
+    padding-bottom: 1vh;
+    position: relative;
+    top: -0.1vh;
+    border-radius: 1vh;
   }
   
   .exit-button {
     position: absolute;
     left: 35vh;
     top: 2.5vh;
+    font-family: "Ubuntu", Helvetica;
     background-color: transparent;
     border: none;
     
